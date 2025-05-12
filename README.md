@@ -1,8 +1,6 @@
 
----
 
-````markdown
-# 🧭 Robot Navigation Dashboard (ROS + Jupyter Frontend)
+# Robot Navigation Dashboard (ROS + Jupyter Frontend)
 
 This project provides a **real-time robot goal interface** built in a Jupyter Notebook environment, allowing interactive control of a mobile robot using ROS. The system allows users to:
 
@@ -14,7 +12,7 @@ This project provides a **real-time robot goal interface** built in a Jupyter No
 
 ---
 
-## 📦 Project Structure
+##  Project Structure
 
 ### Backend Nodes
 
@@ -48,7 +46,7 @@ This project provides a **real-time robot goal interface** built in a Jupyter No
 
 ---
 
-## 📊 Features
+## Features
 
 - **Goal Control**: Set goal position (x, y) using sliders and send/cancel via buttons.
 - **Goal Summary**: Bar chart showing total reached and cancelled goals.
@@ -62,7 +60,7 @@ This project provides a **real-time robot goal interface** built in a Jupyter No
 
 ---
 
-## 🛠️ How to Run
+##  How to Run
 
 ### 1. Backend (ROS Node)
 Make sure you have your workspace set up correctly with ROS and the custom messages compiled.
@@ -89,7 +87,7 @@ Run the notebook that contains the frontend interface.
 
 ---
 
-## 📁 Custom Messages
+## Custom Messages
 
 ### `RobotState.msg`
 
@@ -109,7 +107,7 @@ string message
 
 ---
 
-## 🧪 Dependencies
+##  Dependencies
 
 Make sure you have the following Python and ROS packages installed:
 
@@ -130,7 +128,7 @@ jupyter nbextension enable --py widgetsnbextension
 
 ---
 
-## ✅ Future Improvements
+## Future Improvements
 
 * Visualize robot trajectory.
 * Add automatic obstacle avoidance logic.

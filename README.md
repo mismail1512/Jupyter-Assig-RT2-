@@ -33,7 +33,7 @@ This project provides a **real-time robot goal interface** built in a Jupyter No
 
 ---
 
-## 📡 ROS Topics
+##  ROS Topics
 
 | Topic                  | Type                | Description                          |
 |------------------------|---------------------|--------------------------------------|
@@ -84,26 +84,6 @@ jupyter notebook
 ```
 
 Run the notebook that contains the frontend interface.
-
----
-
-## Custom Messages
-
-### `RobotState.msg`
-
-```msg
-float64 x
-float64 y
-float64 vel_x
-float64 vel_z
-```
-
-### `GoalResult.msg`
-
-```msg
-int8 status  # 1 = succeeded, 0 = canceled, -1 = aborted
-string message
-```
 
 ---
 
